@@ -4,22 +4,6 @@ main:
   url: /categories/
   -title: "Tag"
   url: /tags/
-  docs:
-  - title: Programming
-    children:
-      - title: "Programmers"
-        url: Programmers.github.io/
-        category: "Programmers"
-  - title: Embeded
-    children:
-      - title: "Embeded recipes"
-        url: Embeded/
-        category: "Embeded recipes"
-  - title: Etc
-    children:
-      - title: "PortPolio"
-        url: portpolio/
-        category: "PortPolio"
   # - title: "Quick-Start Guide"
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
