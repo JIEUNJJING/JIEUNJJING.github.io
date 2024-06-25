@@ -114,7 +114,7 @@ analytics:
 author:
   name             : "Park Ji Eun"
   avatar           : "/assets/JIEUNJJING.png"
-  bio              : "임베디드sw에 관심이 있는 학생입니다!"
+  bio              : "Embeded SW"
   location         : "South Korea"
   email            : 
   links:
@@ -271,16 +271,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+ jekyll-archives:
+   enabled:
+     - categories
+     - tags
+   layouts:
+     category: archive-taxonomy
+     tag: archive-taxonomy
+   permalinks:
+     category: /categories/:name/
+     tag: /tags/:name/
 
 
 # HTML Compression
