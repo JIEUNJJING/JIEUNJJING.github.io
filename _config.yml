@@ -20,7 +20,7 @@ title                    : "Park Ji Eun's PORTPOLIO"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Your Name"
-description              : "임베디드sw에 관심있는 학생입니다."
+description              : "Embeded SW"
 url                      : "https://JIEUNJJING.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
