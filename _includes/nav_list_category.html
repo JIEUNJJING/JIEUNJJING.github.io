@@ -1,13 +1,20 @@
 {% assign sum = site.posts | size %}
-<div>
-  Total Post : {{sum}} 개
-<div>
-  <ul>
-    <li>Coding Test</li>
-  {% for category in site.categories %}
-    {% if category[0] == "Coding" %}
-      <li><a href="#">Programmers ({{category[1].size}})</a></li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-</div>
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <li>
+        <span style="font-family:'Cafe24Oneprettynight';">Total Post Count (</style> <span style="font-family:'Coming Soon';">{{sum}}</style><span style="font-family:'Cafe24Oneprettynight';">)</style> 
+      </li>
+      <li>
+        <span style="font-family:'Cafe24Oneprettynight';">Coding Test</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "coding" %}
+                        <li><a href="#" class="">Programmers ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+</nav>
