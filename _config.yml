@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Park Ji Eun's PORTPOLIO"
+title                    : "Ji Eun's Space"
 title_separator          : "|"
 subtitle                 : "Embeded SW"
 name                     : "PARK JI EUN"
-description              : "Embeded SW"
+description              : #"Embeded SW"
 url                      : "https://JIEUNJJING.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "JIEUNJJING/minimal-mistakes"
@@ -307,3 +307,4 @@ defaults:
       show_date: true
 
 date_format: "%Y-%m-%d"
+future: true
