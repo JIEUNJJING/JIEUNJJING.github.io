@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "첫 포스팅 입니다!"
+title: "프로그래머스 - 꼬리 문자열"
 categories: 
   - coding
 tag:
   - python
 --- 
-[프로그래머스 꼬리 문자열 링](https://school.programmers.co.kr/learn/courses/30/lessons/181841)  
+[프로그래머스 꼬리 문자열](https://school.programmers.co.kr/learn/courses/30/lessons/181841)  
 
 ## 📌꼬리 문자열
 #### 📖문제 설명 :  
