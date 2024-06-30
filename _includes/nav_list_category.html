@@ -24,5 +24,12 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "python" %}
+                        <li style="font-family:'Ownglyph_UNZ-Rg'; font-size:1em; margin-top:5px; margin-left:10px">📂 <a href="/categories/python" class="">Python Grammar ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
 </nav>
