@@ -6,7 +6,7 @@ categories:
 tag:
   - [python, coding, grammar]
 --- 
-[문제링크]([https://school.programmers.co.kr/learn/courses/30/lessons/120840](https://school.programmers.co.kr/learn/courses/30/lessons/120868))  
+[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/120868)  
 
 ## 📌삼각형의 완성조건 (2)
 #### 📖문제 설명 :  
